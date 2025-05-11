@@ -24,4 +24,5 @@ while True:
 
     if count > 10:
         print("Exceeded Maximum Guesses")
+        break
 
