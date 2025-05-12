@@ -11,7 +11,6 @@ while True:
         Min = int(input("Enter the min number for guessing game: "))
         Max = int(input("Enter the max number for guessing game: "))
         rand1 = random.randint(Min, Max)
-        print(rand1)
         flag = None
         count=0
 
