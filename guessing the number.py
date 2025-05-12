@@ -33,7 +33,6 @@ while True:
         elif num==rand1:
             if best is None or count < best:
                 best = count
-                print("if works")
             print(f"Congratulations! You guessed the number in {count} attempts.\n Your Lowest Guess record is : {best}")
             if input("Whether you want to play the game? (y/n): ") == "y":
                 flag = True
